@@ -218,7 +218,6 @@ nav div ul li .btn{
   align-items: center;
   text-align: left;
   gap: 60px;
-  border: 1px solid red;
   margin-top: 120px;
   
 }
@@ -273,4 +272,65 @@ nav div ul li .btn{
   width: 20px;
   height: 20px;
   background-image: url("../assets/CheckCircle.png");
+}
+
+
+/* Early Section design start here */
+
+
+.early-section {
+  padding: 80px 20px;
+}
+
+.early-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #F7F6F2;
+  padding: 72px 24px;
+  text-align: center;
+}
+
+
+.early-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+
+.early-details {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-bottom: 24px;
+}
+
+
+.early-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #469165;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.right-arrow{
+  margin-top: 9px;
+  max-width: 15.63;
+  max-height: 13.13;
+}
+
+.note{
+  max-width: 1280px;
+  max-height: 20px;
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
+  padding-bottom: 80px;
 }
