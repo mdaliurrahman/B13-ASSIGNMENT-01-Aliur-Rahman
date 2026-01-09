@@ -205,3 +205,72 @@ nav div ul li .btn{
   line-height: 15px;
   color: #627382;
 }
+
+/* Solution section are start here */
+.solution-section {
+  padding: 80px 24px;
+}
+
+.solution-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 60px;
+  border: 1px solid red;
+  margin-top: 120px;
+  
+}
+
+.solution-image img {
+  width: 100%;
+  height: 600px;
+}
+
+.solution-content .head {
+  padding-top: 102px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #469165;
+}
+
+.solution-content h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
+
+.solution-content .description {
+  font-size: 18px;
+  line-height: 25px;
+  color: #627382;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+
+.style {
+  list-style: none;
+  padding: 0;
+}
+
+.style li {
+  position: relative;
+  padding-left: 32px; 
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  color: #001931;
+}
+
+.style li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/CheckCircle.png");
+}
