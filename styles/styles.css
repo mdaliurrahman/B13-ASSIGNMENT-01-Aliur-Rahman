@@ -5,46 +5,136 @@
 }
 
 /* nav design section here */
+header{
+  padding-top: 21px;
+}
+
 nav{
-    display: flex;
-}
-
-.nav-feature{
- 
-  margin: 0 auto;
-}
-
-.nav-feature ul {
+  width: 100%;
+  /* max-width: 1600px; */
+  margin: 0px auto;
   display: flex;
-  list-style: none;
-  margin: 32px;
-  gap: 32px;
-}
-.logo{
-    max-width: 139px;
-    margin: 16px ;
-    margin-left: 120px;
+  justify-content: space-between;
 }
 
-.btn{
-  max-height: 44px;
-  padding-right: 120px;
-  margin: 24px;
+nav .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  align-items: center;
+  margin: 0 auto;
+  
   
 }
-button{
+
+nav .title{
+  margin: 0 auto;
+}
+nav div{
+  display: flex;
+  align-items: center;
+  
+  
+}
+nav li{
+  list-style-type: none;
+  display: flex;
+}
+
+nav div ul li .btn{
+  background-color: #469165;
+  border: none;
+  padding: 12.5px 16px;
+  border-radius: 5px;
   font-size: 16px;
   font-weight: 600;
   color: #FFFFFF;
-  background-color: #469165;
-  padding: 12.5px 16px;
-  border-radius: 5px;
+  
 }
+
+
 /* hero section design start here */
-.banner{
-  max-width: 1600px;
-  height: 674px;
+.hero{ 
   background-image: url(../assets/hero-bg.png);
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.hero-content {
+  max-width: 900px;
+  padding: 20px;
   
 }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #469165;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.badge .dot {
+  width: 8px;
+  height: 8px;
+  background: #2f8f5b;
+  border-radius: 50%;
+}
+
+.hero h1 {
+  font-size: 69px;
+  color: #FFFFFF;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #30B868;
+  font-size: 72px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  max-width: 750px;
+  margin: 0 auto 36px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 179px;
+}
+
+.btn-primary {
+  padding: 14px 28px;
+  background: #469165;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn-outline {
+  padding: 14px 28px;
+  background: transparent;
+  color: #FFFFFF;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
